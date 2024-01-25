@@ -1,0 +1,164 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image:url("../img/fundo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    margin: 0;
+}
+#cx1{
+    width: 1000px;
+    height: 1050px;
+    margin: auto;
+    position: relative;
+}
+#cx2{
+    width: 650px;
+    height: 200px;
+    margin-left: 320px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    color: blueviolet;
+    margin-top: 2%;
+}
+#enc{
+    width: 120px;
+    height: 80px;
+    margin-top: 180px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    position: absolute;
+    margin-left: 600px;
+}
+.text1{
+    width: 100%;
+    height: 200px;
+    margin-left: 30px;
+    position: absolute;
+    font-family: 'Courier New';
+    background-color: rgba(249, 249, 247, 0);
+    color: yellow;
+}
+#banner{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(251, 255, 0);
+    position: absolute;
+    margin-top: 45px;
+}
+#menu{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(97, 11, 100);
+    position: absolute;
+    text-align: center;
+}
+#imagem-principal{
+    width: 1000px;
+    height: 1400px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 300px;
+}
+#lateralD{
+    width: 200px;
+    height: 750px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 750px;
+}
+#l20D{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(18, 217, 18);
+    position: absolute;
+    margin-top: 0px;
+   
+}
+#l21D{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(232, 16, 167);
+    position: absolute;
+    margin-top: 150px;
+   
+}
+#l22D{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(46, 17, 210);
+    position: absolute;
+    margin-top: 300px;
+   
+}
+#l23D{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(200, 249, 7);
+    position: absolute;
+    margin-top: 450px;
+   
+}
+#l24D{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(6, 231, 239);
+    position: absolute;
+    margin-top: 600px;
+   
+}
+#Rodape{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    margin-top: 750px; 
+}
+
+.icons{
+    display: flex;
+    margin: 25px;
+    width: 100%;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(132, 8, 234);
+}
+
+.menus{
+    background-color: rgb(6, 6, 6);;
+    color: rgb(249, 249, 13);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.menus:hover{
+    background-color: rgb(253, 229, 12);
+    color:white;
+}
+.bindex{
+        width: 100%;
+        height: 250px;
+        position: relative;
+}
+.bind{
+    width:100%;
+    height: 750px;
+    position: absolute;
+} 
+.binde{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+.text1{
+    font-size: gabriola;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
